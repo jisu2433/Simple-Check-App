@@ -1,9 +1,9 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&family=PT+Serif:ital,wght@1,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Serif+KR:wght@200&family=PT+Serif:ital,wght@1,700&display=swap');
 body {
     background-color: beige;
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-family: 'PT Serif', serif;
 }
 
