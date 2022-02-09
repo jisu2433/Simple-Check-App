@@ -1,0 +1,74 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&family=PT+Serif:ital,wght@1,700&display=swap");
+
+body {
+    background-color: beige;
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'PT Serif', serif;
+}
+
+.small-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: rgb(46, 45, 45);
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: beige;
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'PT Serif', serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+input::placeholder{
+    color: rgb(197, 188, 59);
+    opacity: 1;
+}
+
+input:focus { outline: none; }
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(197, 188, 59);
+}
+
+ul {
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: rgb(46, 45, 45);
+    text-align: left;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    padding: 5px 0px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid rgba(156, 146, 50, 0.8);
+    color: rgb(194, 184, 52);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+button:hover{
+    background-color: rgb(230, 228, 115);
+    color: rgb(70, 70, 70);
+}
+
